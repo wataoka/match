@@ -4,6 +4,10 @@ from tqdm import tqdm
 from keras.datasets import mnist
 from keras.utils import to_categorical
 
+import pandas as pd
+data = pd.read_csv('./result.tsv', delimiter='\t')
+print(data)
+quit()
 def load_mnist():
     (x_train, y_train), (x_test, y_test) = mnist.load_data()
 
