@@ -56,4 +56,6 @@ print(acc)
 ```
 
 ## 結果
-![result](./result.png)
+![result](./result.png)  
+
+理論は通ったが, やっぱり黙ってcnnしよう.
